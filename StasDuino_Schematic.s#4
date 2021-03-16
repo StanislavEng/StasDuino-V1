@@ -2709,6 +2709,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
 <part name="R9" library="StasDuino_Lib" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
+<part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2877,6 +2878,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R9" gate="G$1" x="205.74" y="83.82" smashed="yes">
 <attribute name="NAME" x="203.2" y="85.344" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="208.28" y="87.376" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="GND12" gate="G$1" x="-35.56" y="27.94" smashed="yes">
+<attribute name="VALUE" x="-33.02" y="26.162" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -3057,6 +3061,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="S1" gate="S" pin="2"/>
 <wire x1="185.42" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <junction x="177.8" y="83.82"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="G$1" pin="3.3V"/>
+<wire x1="-35.56" y1="30.48" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="-25.4" y1="50.8" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="-7.62" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="0" y1="55.88" x2="0" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="0" y1="66.04" x2="-35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="66.04" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-35.56" y="50.8"/>
 </segment>
 </net>
 <net name="VIN" class="0">
