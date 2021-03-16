@@ -3515,18 +3515,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$2" gate="G$1" pin="AVCC"/>
 <pinref part="U$2" gate="G$1" pin="AREF"/>
 <wire x1="307.34" y1="43.18" x2="307.34" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="45.72" x2="330.2" y2="45.72" width="0.1524" layer="91"/>
-<junction x="307.34" y="45.72"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<pinref part="U$1" gate="G$1" pin="R232"/>
-<wire x1="109.22" y1="63.5" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RTS#"/>
-<wire x1="109.22" y1="58.42" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<junction x="109.22" y="60.96"/>
 </segment>
 </net>
 </nets>
