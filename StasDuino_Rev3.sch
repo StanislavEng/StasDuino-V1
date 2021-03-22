@@ -6196,7 +6196,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -6434,9 +6433,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <attribute name="VALUE" x="365.76" y="-25.146" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="365.76" y="25.908" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="C9" gate="G$1" x="373.38" y="22.86" smashed="yes">
-<attribute name="NAME" x="374.904" y="25.781" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="374.904" y="20.701" size="1.778" layer="96" font="vector"/>
+<instance part="C9" gate="G$1" x="386.08" y="22.86" smashed="yes">
+<attribute name="NAME" x="387.604" y="25.781" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="387.604" y="20.701" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND1" gate="1" x="-22.86" y="106.68" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="106.426" size="1.778" layer="96" align="top-center"/>
@@ -6465,11 +6464,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <instance part="GND10" gate="1" x="360.68" y="106.68" smashed="yes">
 <attribute name="VALUE" x="360.68" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="373.38" y="17.78" smashed="yes">
+<instance part="GND12" gate="1" x="373.38" y="17.78" smashed="yes">
 <attribute name="VALUE" x="373.38" y="17.526" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND12" gate="1" x="383.54" y="17.78" smashed="yes">
-<attribute name="VALUE" x="383.54" y="17.526" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND13" gate="1" x="236.22" y="0" smashed="yes">
 <attribute name="VALUE" x="236.22" y="-0.254" size="1.778" layer="96" align="top-center"/>
@@ -6520,16 +6516,16 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <instance part="SUPPLY12" gate="G$1" x="116.84" y="66.04" smashed="yes">
 <attribute name="VALUE" x="116.84" y="68.834" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="L1" gate="G$1" x="398.78" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="396.24" y="44.45" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="401.32" y="44.45" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="L1" gate="G$1" x="401.32" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.78" y="44.45" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="403.86" y="44.45" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="C13" gate="G$1" x="391.16" y="25.4" smashed="yes">
-<attribute name="NAME" x="392.684" y="28.321" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="392.684" y="23.241" size="1.778" layer="96" font="vector"/>
+<instance part="C13" gate="G$1" x="393.7" y="22.86" smashed="yes">
+<attribute name="NAME" x="395.224" y="25.781" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="395.224" y="20.701" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND23" gate="1" x="391.16" y="17.78" smashed="yes">
-<attribute name="VALUE" x="391.16" y="17.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND23" gate="1" x="393.7" y="7.62" smashed="yes">
+<attribute name="VALUE" x="393.7" y="7.366" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="416.56" y="53.34" smashed="yes">
 <attribute name="VALUE" x="416.56" y="56.134" size="1.778" layer="96" align="bottom-center"/>
@@ -6707,7 +6703,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
-<wire x1="403.86" y1="43.18" x2="416.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="43.18" x2="416.56" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="43.18" x2="416.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7144,16 +7140,12 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="D1" gate="D1" pin="C"/>
 </segment>
 <segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="15"/>
 <wire x1="355.6" y1="15.24" x2="327.66" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="15.24" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="38.1" x2="383.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="38.1" x2="373.38" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="383.54" y1="38.1" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="38.1" x2="373.38" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -7181,7 +7173,17 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="391.16" y1="20.32" x2="391.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="10.16" x2="393.7" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="AGND"/>
+<wire x1="393.7" y1="12.7" x2="393.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="48.26" x2="381" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="381" y1="48.26" x2="381" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="386.08" y1="12.7" x2="386.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="381" y1="12.7" x2="386.08" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="12.7" x2="393.7" y2="12.7" width="0.1524" layer="91"/>
+<junction x="386.08" y="12.7"/>
+<junction x="393.7" y="12.7"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -7244,13 +7246,13 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="J5" gate="G$1" pin="16"/>
 <wire x1="355.6" y1="17.78" x2="330.2" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="17.78" x2="330.2" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="35.56" x2="373.38" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="35.56" x2="386.08" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="35.56" x2="373.38" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="35.56" x2="386.08" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="AREF"/>
-<wire x1="314.96" y1="45.72" x2="373.38" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="45.72" x2="373.38" y2="35.56" width="0.1524" layer="91"/>
-<junction x="373.38" y="35.56"/>
+<wire x1="314.96" y1="45.72" x2="386.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="45.72" x2="386.08" y2="35.56" width="0.1524" layer="91"/>
+<junction x="386.08" y="35.56"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -7267,7 +7269,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="325.12" y1="12.7" x2="355.6" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="40.64" x2="327.66" y2="40.64" width="0.1524" layer="91"/>
 <junction x="325.12" y="40.64"/>
-<label x="337.82" y="40.64" size="1.778" layer="95"/>
+<label x="327.66" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -7286,11 +7288,11 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <segment>
 <pinref part="U$2" gate="G$1" pin="AVCC"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="314.96" y1="43.18" x2="391.16" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="43.18" x2="396.24" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="391.16" y1="30.48" x2="391.16" y2="43.18" width="0.1524" layer="91"/>
-<junction x="391.16" y="43.18"/>
+<wire x1="393.7" y1="27.94" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<junction x="393.7" y="43.18"/>
 </segment>
 </net>
 <net name="N$17" class="0">
