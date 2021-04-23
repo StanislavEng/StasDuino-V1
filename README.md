@@ -15,13 +15,16 @@ The real time crunch, apparently, was creating the actual layout on the PCB. Lay
 actually a painful but interesting learning experience. As a result, I also created "3" revisions to try to improve the layout. 
 
 ## Rev 1:
-My original board design, learning to create traces and place down parts and as a result does not have the best of tracing. 
+My original board design, learning to create traces and place down parts, and,  
+as a result does not have the best of tracing. 
 ![image](https://user-images.githubusercontent.com/39227553/115812344-1492dd80-a3a6-11eb-9447-a9670939146e.png)
 
 ## Rev 2: 
-Looking at what the autotrace creates and seeing what is *maybe* possible, best practice wise, as in what kind of designs (regardig traces) is allowed.
+Looking at what the autotrace creates and seeing what is *maybe* possible, best practice wise,  
+as in what kind of designs (regardig traces) is allowed.
 ![image](https://user-images.githubusercontent.com/39227553/115812376-1f4d7280-a3a6-11eb-8ca5-696fdbb5071b.png)
 
 ## Rev 3: 
-Recreating traces and changing some part orientation to create a overall better designed board. Not sure if actually better but I felt more proud.
+Recreating traces and changing some part orientation to create a overall better designed board.  
+Not sure if actually better but I felt more proud.
 ![image](https://user-images.githubusercontent.com/39227553/115812414-32604280-a3a6-11eb-9069-fff8fd9c545f.png)
